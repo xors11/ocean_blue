@@ -18,6 +18,7 @@ export default async function handler(req, res) {
                 "wave_height",
                 "wind_wave_height",
                 "swell_wave_height",
+                "sea_surface_temperature",
             ].join(","),
             current: [
                 "wave_height",
@@ -55,7 +56,8 @@ export default async function handler(req, res) {
         const times = weather.hourly?.time ?? [];
         const rows = times.map((t, i) => ({
             timestamp: t,
-            sea_surface_temp: weather.hourly.sea_surface_temperature?.[i] ?? null,
+            // Use sea_surface_temperature from marine API if available, else from forecast API
+            sea_surface_temp: marine.hourly?.sea_surface_temperature?.[i] ?? weather.hourly?.sea_surface_temperature?.[i] ?? null,
             wind_speed: weather.hourly.wind_speed_10m?.[i] ?? null,
             air_pressure: weather.hourly.surface_pressure?.[i] ?? null,
             wave_height: marine.hourly?.wave_height?.[i] ?? null,
