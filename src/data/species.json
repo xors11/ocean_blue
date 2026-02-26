@@ -1,0 +1,52 @@
+[
+  {
+    "id": "sardine",
+    "name": "Pacific Sardine",
+    "temp_range": [13, 18],
+    "max_wave_height": 2.5,
+    "season_months": [3, 4, 5, 6, 7, 8],
+    "legal_status": "Safe",
+    "stock_health": 82,
+    "trend": "Stable"
+  },
+  {
+    "id": "tuna",
+    "name": "Bluefin Tuna",
+    "temp_range": [16, 22],
+    "max_wave_height": 3.5,
+    "season_months": [6, 7, 8, 9, 10, 11],
+    "legal_status": "Restricted",
+    "stock_health": 45,
+    "trend": "Declining"
+  },
+  {
+    "id": "mackerel",
+    "name": "Atlantic Mackerel",
+    "temp_range": [10, 16],
+    "max_wave_height": 3.0,
+    "season_months": [1, 2, 3, 10, 11, 12],
+    "legal_status": "Safe",
+    "stock_health": 68,
+    "trend": "Stable"
+  },
+  {
+    "id": "cod",
+    "name": "Pacific Cod",
+    "temp_range": [4, 12],
+    "max_wave_height": 4.0,
+    "season_months": [1, 2, 3, 4, 12],
+    "legal_status": "Restricted",
+    "stock_health": 52,
+    "trend": "Declining"
+  },
+  {
+    "id": "salmon",
+    "name": "King Salmon",
+    "temp_range": [8, 14],
+    "max_wave_height": 2.2,
+    "season_months": [5, 6, 7, 8, 9],
+    "legal_status": "Protected",
+    "stock_health": 35,
+    "trend": "Critical"
+  }
+]

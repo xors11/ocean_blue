@@ -5,6 +5,7 @@ import StatsCards from './components/StatsCards';
 import LoadingSpinner from './components/LoadingSpinner';
 import HistoricalChart from './components/HistoricalChart';
 import OceanAnalyticsSummary, { LIVE_ANALYTICS_PARAMS, HIST_ANALYTICS_PARAMS } from './components/OceanAnalyticsSummary';
+import FisheriesIntelligence from './components/FisheriesIntelligence';
 import { useBuoyData } from './hooks/useBuoyData';
 import { useHistoricalBuoyData } from './hooks/useHistoricalBuoyData';
 import { LOCATIONS, PARAMETERS } from './data/constants';
@@ -209,6 +210,12 @@ export default function App() {
                             >
                                 📊 Historical Data
                             </button>
+                            <button
+                                className={viewMode === 'fisheries' ? 'active' : ''}
+                                onClick={() => setViewMode('fisheries')}
+                            >
+                                🎣 Fisheries
+                            </button>
                         </div>
 
                         {/* ── Year filter (historical mode only) ─────────────────── */}
@@ -285,7 +292,7 @@ export default function App() {
                 </div>
 
                 {/* ── Content ─────────────────────────────────────────────────────── */}
-                {isHistorical ? (
+                {viewMode === 'historical' ? (
                     /* ── HISTORICAL VIEW ─────────────────────────────────────────── */
                     histLoading ? (
                         <LoadingSpinner message="Loading historical buoy data…" />
@@ -314,6 +321,9 @@ export default function App() {
                             <OceanAnalyticsSummary data={filteredHistorical} params={HIST_ANALYTICS_PARAMS} />
                         </div>
                     )
+                ) : viewMode === 'fisheries' ? (
+                    /* ── FISHERIES VIEW ─────────────────────────────────────────── */
+                    <FisheriesIntelligence currentData={data[data.length - 1] || {}} />
                 ) : (
                     /* ── LIVE VIEW ──────────────────────────────────────────────── */
                     loading ? (
