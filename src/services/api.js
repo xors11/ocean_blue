@@ -3,7 +3,7 @@
  * All API calls go through this module. Components never fetch directly.
  */
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "";
 
 /**
  * Fetch buoy data for a given location.
