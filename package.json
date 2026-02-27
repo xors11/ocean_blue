@@ -1,0 +1,20 @@
+{
+    "name": "ocean-blue-backend",
+    "version": "1.0.0",
+    "description": "Express backend for Ocean Blue – proxies Open-Meteo and serves historical CSV data",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js",
+        "build": "cd ocean-blue && npm install && npm run build"
+    },
+    "dependencies": {
+        "axios": "^1.7.9",
+        "cors": "^2.8.5",
+        "csv-parser": "^3.0.0",
+        "express": "^4.21.2"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}

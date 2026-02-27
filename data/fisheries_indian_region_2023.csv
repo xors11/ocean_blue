@@ -1,0 +1,101 @@
+id,region,species,scientific_name,stock_health_percent,trend,msy_tonnes,current_catch_tonnes,season_open,protected
+1,North Indian Ocean,Yellowfin Tuna,Thunnus albacares,72,Declining,110000,95000,true,false
+2,North Indian Ocean,Skipjack Tuna,Katsuwonus pelamis,85,Stable,140000,120000,true,false
+3,North Indian Ocean,Bigeye Tuna,Thunnus obesus,62,Declining,85000,82000,true,false
+4,North Indian Ocean,Sailfish,Istiophorus platypterus,54,Declining,45000,43000,true,false
+5,North Indian Ocean,Bluefin Tuna,Thunnus thynnus,45,Critical,60000,58000,false,true
+6,North Indian Ocean,Swordfish,Xiphias gladius,63,Declining,70000,65000,true,false
+7,North Indian Ocean,Oceanic Shark,Carcharhinus longimanus,38,Critical,30000,29000,false,true
+8,North Indian Ocean,Indian Mackerel,Rastrelliger kanagurta,88,Stable,180000,150000,true,false
+9,North Indian Ocean,Sardine,Sardinella longiceps,82,Stable,120000,90000,true,false
+10,North Indian Ocean,Anchovy,Stolephorus indicus,79,Stable,80000,65000,true,false
+11,North Indian Ocean,Grouper,Epinephelus coioides,49,Declining,40000,39000,false,false
+12,North Indian Ocean,Barracuda,Sphyraena barracuda,66,Stable,55000,50000,true,false
+13,North Indian Ocean,Sea Bass,Lates calcarifer,74,Stable,60000,52000,true,false
+14,North Indian Ocean,Trevally,Caranx ignobilis,69,Stable,65000,59000,true,false
+15,North Indian Ocean,Ray,Dasyatis pastinaca,41,Critical,25000,24000,false,true
+16,North Indian Ocean,Bonito,Sarda orientalis,63,Declining,48000,45000,true,false
+17,North Indian Ocean,Snapper,Lutjanus campechanus,57,Declining,42000,40000,true,false
+18,North Indian Ocean,Crab,Portunus pelagicus,75,Stable,55000,48000,true,false
+19,North Indian Ocean,Lobster,Panulirus homarus,71,Stable,50000,45000,true,false
+20,North Indian Ocean,Shrimp,Penaeus monodon,68,Stable,95000,82000,true,false
+21,Bay of Bengal,Hilsa Shad,Tenualosa ilisha,60,Declining,90000,85000,false,false
+22,Bay of Bengal,Ribbonfish,Trichiurus lepturus,76,Stable,70000,60000,true,false
+23,Bay of Bengal,Catfish,Arius arius,70,Stable,45000,40000,true,false
+24,Bay of Bengal,Anchovy,Encrasicholina devisi,80,Stable,78000,65000,true,false
+25,Bay of Bengal,Snapper,Lutjanus fulviflamma,66,Stable,48000,43000,true,false
+26,Bay of Bengal,Emperor Fish,Lethrinus lentjan,68,Stable,50000,45000,true,false
+27,Bay of Bengal,Parrotfish,Scarus ghobban,59,Declining,35000,33000,true,false
+28,Bay of Bengal,Coral Trout,Plectropomus leopardus,47,Critical,30000,29000,false,true
+29,Bay of Bengal,Mullet,Mugil cephalus,81,Stable,70000,58000,true,false
+30,Bay of Bengal,Sardine,Sardinella albella,84,Stable,120000,95000,true,false
+31,Bay of Bengal,Shrimp,Penaeus indicus,72,Stable,95000,83000,true,false
+32,Bay of Bengal,Indian Mackerel,Rastrelliger kanagurta,86,Stable,180000,150000,true,false
+33,Bay of Bengal,Kingfish,Scomberomorus commerson,58,Declining,65000,60000,true,false
+34,Bay of Bengal,Grouper,Epinephelus marginatus,49,Declining,40000,39000,false,false
+35,Bay of Bengal,Barracuda,Sphyraena jello,67,Stable,55000,49000,true,false
+36,Bay of Bengal,Sea Bass,Lates calcarifer,73,Stable,60000,53000,true,false
+37,Bay of Bengal,Trevally,Caranx sexfasciatus,72,Stable,65000,59000,true,false
+38,Bay of Bengal,Sailfish,Istiophorus platypterus,55,Declining,45000,43000,true,false
+39,Bay of Bengal,Shark,Carcharhinus melanopterus,39,Critical,30000,28000,false,true
+40,Bay of Bengal,Ray,Raja spp.,42,Critical,25000,24000,false,true
+41,Indian Ocean,Yellowfin Tuna,Thunnus albacares,70,Declining,110000,98000,true,false
+42,Indian Ocean,Skipjack Tuna,Katsuwonus pelamis,87,Stable,140000,120000,true,false
+43,Indian Ocean,Bigeye Tuna,Thunnus obesus,64,Declining,85000,82000,true,false
+44,Indian Ocean,Albacore Tuna,Thunnus alalunga,75,Stable,95000,82000,true,false
+45,Indian Ocean,Sardine,Sardinella longiceps,83,Stable,120000,95000,true,false
+46,Indian Ocean,Indian Mackerel,Rastrelliger kanagurta,89,Stable,180000,155000,true,false
+47,Indian Ocean,Shrimp,Penaeus indicus,74,Stable,95000,85000,true,false
+48,Indian Ocean,Lobster,Panulirus ornatus,73,Stable,50000,45000,true,false
+49,Indian Ocean,Crab,Scylla serrata,76,Stable,55000,50000,true,false
+50,Indian Ocean,Anchovy,Stolephorus commersonii,82,Stable,80000,70000,true,false
+51,Indian Ocean,Shark,Carcharhinus falciformis,37,Critical,30000,29000,false,true
+52,Indian Ocean,Ray,Dasyatis americana,44,Critical,25000,24000,false,true
+53,Indian Ocean,Grouper,Epinephelus tauvina,50,Declining,40000,38000,false,false
+54,Indian Ocean,Snapper,Lutjanus bohar,61,Declining,42000,40000,true,false
+55,Indian Ocean,Parrotfish,Scarus niger,60,Declining,35000,33000,true,false
+56,Indian Ocean,Coral Trout,Plectropomus maculatus,46,Critical,30000,29000,false,true
+57,Indian Ocean,Bonito,Sarda orientalis,65,Stable,48000,45000,true,false
+58,Indian Ocean,Swordfish,Xiphias gladius,64,Declining,70000,66000,true,false
+59,Indian Ocean,Sailfish,Istiophorus platypterus,56,Declining,45000,43000,true,false
+60,Indian Ocean,Oceanic Shark,Carcharhinus longimanus,35,Critical,30000,28000,false,true
+61,North Indian Ocean,Anchovy,Encrasicholina devisi,81,Stable,78000,65000,true,false
+62,North Indian Ocean,Kingfish,Scomberomorus commerson,60,Declining,65000,60000,true,false
+63,North Indian Ocean,Catfish,Arius arius,71,Stable,45000,41000,true,false
+64,North Indian Ocean,Squid,Loligo duvaucelii,73,Stable,60000,52000,true,false
+65,North Indian Ocean,Emperor Fish,Lethrinus mahsena,69,Stable,50000,45000,true,false
+66,North Indian Ocean,Snapper,Lutjanus fulvus,66,Stable,48000,43000,true,false
+67,North Indian Ocean,Parrotfish,Scarus frenatus,59,Declining,35000,33000,true,false
+68,North Indian Ocean,Coral Trout,Plectropomus areolatus,48,Critical,30000,29000,false,true
+69,North Indian Ocean,Shrimp,Penaeus indicus,73,Stable,95000,83000,true,false
+70,North Indian Ocean,Sardine,Sardinella gibbosa,84,Stable,120000,95000,true,false
+71,Bay of Bengal,Tuna (Skipjack),Katsuwonus pelamis,86,Stable,140000,120000,true,false
+72,Bay of Bengal,Tuna (Yellowfin),Thunnus albacares,71,Declining,110000,98000,true,false
+73,Bay of Bengal,Tuna (Bigeye),Thunnus obesus,63,Declining,85000,82000,true,false
+74,Bay of Bengal,Sardine,Sardinella longiceps,83,Stable,120000,95000,true,false
+75,Bay of Bengal,Anchovy,Stolephorus indicus,80,Stable,80000,69000,true,false
+76,Bay of Bengal,Shrimp,Penaeus monodon,72,Stable,95000,83000,true,false
+77,Bay of Bengal,Lobster,Panulirus homarus,71,Stable,50000,45000,true,false
+78,Bay of Bengal,Crab,Portunus pelagicus,75,Stable,55000,48000,true,false
+79,Bay of Bengal,Grouper,Epinephelus tauvina,50,Declining,40000,38000,false,false
+80,Bay of Bengal,Snapper,Lutjanus campechanus,60,Declining,42000,40000,true,false
+81,Indian Ocean,Yellowtail,Seriola lalandi,74,Stable,65000,60000,true,false
+82,Indian Ocean,Mahi Mahi,Coryphaena hippurus,69,Stable,55000,50000,true,false
+83,Indian Ocean,Flounder,Paralichthys dentatus,71,Stable,60000,52000,true,false
+84,Indian Ocean,Halibut,Hippoglossus hippoglossus,61,Declining,50000,47000,true,false
+85,Indian Ocean,Pollock,Gadus chalcogrammus,83,Stable,180000,150000,true,false
+86,Indian Ocean,Herring,Clupea harengus,82,Stable,120000,100000,true,false
+87,Indian Ocean,Snapper,Lutjanus analis,66,Stable,42000,39000,true,false
+88,Indian Ocean,Sailfish,Istiophorus albicans,58,Declining,45000,43000,true,false
+89,Indian Ocean,Kingfish,Scomberomorus cavalla,64,Stable,50000,47000,true,false
+90,Indian Ocean,Anchovy,Engraulis encrasicolus,79,Stable,80000,69000,true,false
+91,North Indian Ocean,Shrimp,Penaeus indicus,72,Stable,95000,83000,true,false
+92,North Indian Ocean,Sardine,Sardinella albella,84,Stable,120000,95000,true,false
+93,North Indian Ocean,Tuna (Albacore),Thunnus alalunga,75,Stable,95000,82000,true,false
+94,Bay of Bengal,Tuna (Skipjack),Katsuwonus pelamis,86,Stable,140000,120000,true,false
+95,Bay of Bengal,Sardine,Sardinella albella,82,Stable,120000,90000,true,false
+96,Bay of Bengal,Shrimp,Penaeus indicus,73,Stable,95000,82000,true,false
+97,Indian Ocean,Tuna (Yellowfin),Thunnus albacares,70,Declining,110000,98000,true,false
+98,Indian Ocean,Sardine,Sardinella gibbosa,80,Stable,120000,100000,true,false
+99,Indian Ocean,Shrimp,Penaeus monodon,74,Stable,100000,87000,true,false
+100,Indian Ocean,Tuna (Bigeye),Thunnus obesus,62,Declining,85000,82000,true,false
