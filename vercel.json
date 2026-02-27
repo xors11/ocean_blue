@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "this_is_a_test": "if you see this the file is updating",
     "builds": [
         {
             "src": "api/index.js",
